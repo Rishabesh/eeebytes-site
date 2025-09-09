@@ -62,4 +62,48 @@
     .facebook { background: #1877F2; }
     .linkedin { background: #0A66C2; }
 
-    footer
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 400px) {
+      h1 { font-size: 2em; }
+      .button { font-size: 1em; padding: 12px 20px; }
+    }
+  </style>
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <h1>EEE Bytes</h1>
+  <p>Simplifying EEE, one byte at a time</p>
+
+  <a class="button youtube" href="https://www.youtube.com/channel/UCg0liowfYmGT4vklVdDGKhA?sub_confirmation=1" target="_blank">
+    <i class="fab fa-youtube"></i> YouTube
+  </a>
+
+  <a class="button tiktok" href="https://www.tiktok.com/@eeebytes" target="_blank">
+    <i class="fab fa-tiktok"></i> TikTok
+  </a>
+
+  <a class="button instagram" href="https://www.instagram.com/eeebytes" target="_blank">
+    <i class="fab fa-instagram"></i> Instagram
+  </a>
+
+  <a class="button facebook" href="https://www.facebook.com/eeebytes" target="_blank">
+    <i class="fab fa-facebook-f"></i> Facebook
+  </a>
+
+  <a class="button linkedin" href="https://www.linkedin.com/company/eeebytes" target="_blank">
+    <i class="fab fa-linkedin-in"></i> LinkedIn
+  </a>
+
+  <footer>© 2025 EEE Bytes</footer>
+
+</body>
+</html>
